@@ -1,0 +1,30 @@
+# инициализация пременных# 
+% a, b, c: ! doub,doub1: $ bb, bbb: % x
+doub1 as 7.2
+doub as 5.3 + 3.1 / doub1
+a as b
+bbb as a < 3
+bb as not bbb
+read(a): read(b): read(bb)
+doub as 1.0
+
+if a < c then 
+	doub as 2.0
+else
+	doub as 0.0
+
+for x as 0 to x<5 do
+	% n: n as a*b*c
+	read(a, b)
+	if c<n then 
+		x as x
+	else
+		x as 35+1*5
+	c as n
+	write(x * 4, bb)
+	write(c)
+
+while x<5 do
+	a as b*3
+	write(a)
+end # конец программы #
